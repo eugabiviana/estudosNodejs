@@ -14,3 +14,13 @@ console.log({
         console.log('andar')
     }
 })
+
+const book = {
+    name: "Frankenstein",
+    author: "Mary Shelley",
+    year: 1818
+}
+
+console.log(`O livro ${book.name} foi escrito por ${book.author} e teve sua primeira publicação em ${book.year}.`)
+
+//Quando chamamos o nome do objeto com um ponto, estamos "abrindo a pasta do próximo nível". Assim, posso buscar a informação dessa área específica.

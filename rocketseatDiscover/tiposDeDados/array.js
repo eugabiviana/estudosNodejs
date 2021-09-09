@@ -9,3 +9,11 @@
  */
 
     console.log(["Gabi", 33, "mulher"])
+
+    //Lista de compras
+   let listaDeCompras = ["Arroz", "Feijão", "Banana", "Maçã"]
+   let indice = 0
+   while (indice < listaDeCompras.length){
+      console.log (listaDeCompras[indice])
+      indice++
+   }
